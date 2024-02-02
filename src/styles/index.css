@@ -1,12 +1,17 @@
-
-/* 
-
-    You can write your own styles here...
+.BigCounterContainer {
+    justify-content: center;
+    background-color: black;
+    width: 440px;
+    text-align: center;
+    }
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.BigCounterContainer div{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+    color: greenyellow;
+    font-family:Impact;
+    padding: 4px;
+    margin: 3px;
+    }
